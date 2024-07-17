@@ -1,5 +1,3 @@
-![PyOSIcon](./pyos.png)
-
 # PyOS
 
 PyOS is a Operating System written in Python with many Features and even **Data Managing**!
