@@ -17,7 +17,7 @@ REVERSE = "\033[7m"
 RESET = "\033[0m"
 
 while True:
-    cmd = input(BLUE+"$ ")
+    cmd = input(BLUE+"$"+RESET+" ")
     if cmd == "shutdown":
         exit()
     elif cmd == "reboot":
