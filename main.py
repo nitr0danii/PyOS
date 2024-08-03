@@ -125,5 +125,8 @@ while True:
     elif cmd == "install":
         os.makedirs("files")
         os.chdir("files")
-        os.makedirs("app", "desktop", "documents")
-        os.makedirs("sys", "images")
+        os.makedirs("app")
+        os.makedirs("desktop")
+        os.makedirs("documents")
+        os.makedirs("images")
+        os.makedirs("sys")
