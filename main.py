@@ -122,5 +122,7 @@ while True:
         os.chdir("app")
         os.system("python3 " + r)
         os.chdir("..")
-        
-    
+    elif cmd == "install":
+        os.makedirs("files")
+        os.chdir("files")
+        os.makedirs("app", "desktop", "documents", "images", "sys")
