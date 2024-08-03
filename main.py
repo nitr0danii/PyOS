@@ -130,3 +130,4 @@ while True:
         os.makedirs("documents")
         os.makedirs("images")
         os.makedirs("sys")
+        input("Installation Done!")
