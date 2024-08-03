@@ -116,3 +116,11 @@ while True:
         time.sleep(5)
         input("Done1")
         os.system("python3 desktop.py")
+    elif cmd == "run":
+        r = input("File Name: ")
+        os.chdir("files")
+        os.chdir("app")
+        os.system("python3 " + r)
+        os.chdir("..")
+        
+    
