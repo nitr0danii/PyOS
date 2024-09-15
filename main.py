@@ -27,7 +27,7 @@ while True:
         os.system(term)
         input()
     elif cmd == "about":
-        print(BLUE+"PythonOS 1.4")
+        print(BLUE+"PythonOS 1.0")
         input()
     elif cmd == "md":
         
