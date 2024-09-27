@@ -17,7 +17,7 @@ REVERSE = "\033[7m"
 RESET = "\033[0m"
 
 while True:
-    cmd = input(BLUE+"$"+RESET+" ")
+    cmd = input(RED+"root@"+BLUE+"pyos"+RESET+" # ")
     if cmd == "shutdown":
         exit()
     elif cmd == "reboot":
